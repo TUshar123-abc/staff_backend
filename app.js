@@ -5,7 +5,7 @@ import  router  from "./routes/contactRoutes.js";
 import cors from "cors"
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 2500;
 dotenv.config();
 db()
 app.use(cors())
